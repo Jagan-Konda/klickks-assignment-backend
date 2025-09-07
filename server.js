@@ -14,7 +14,7 @@ const dbPath = path.join(__dirname, './loginDetails.db')
 const app = express()
 app.use(express.json())
 
-const allowedOrigins = ['http://localhost:3001'];
+const allowedOrigins = ['http://localhost:3001', 'https://klickks459.netlify.app/login'];
 
 // CORS options
 const corsOptions = {
